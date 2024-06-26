@@ -1,7 +1,9 @@
 Docker:
+
 Docker is a popular platform that simplifies the process of creating, deploying, and managing applications by using containerization.
 
 What is Docker?
+
 Docker is an open-source platform that uses containerization technology to allow developers to package applications and their dependencies into a standardized unit called a container. Containers are lightweight, portable, and ensure consistency across different environments.
 
 Key Concepts
@@ -17,17 +19,27 @@ Docker Hub: Docker Hub is a cloud-based registry service where you can find and 
 Basic Docker Commands:
 
 docker run: Create and start a container from an image.
+
 docker build: Build an image from a Dockerfile.
+
 docker pull: Download an image from a registry.
+
 docker push: Upload an image to a registry.
+
 docker ps: List running containers.
+
 docker stop: Stop a running container.
+
 docker rm: Remove a container.
+
 docker rmi: Remove an image.
 
 Benefits of Docker :
 
 Consistency: Docker containers ensure that software will always run the same, regardless of where it's deployed.
+
 Isolation: Each container runs in isolation, allowing you to run multiple containers simultaneously without conflicts.
+
 Portability: Containers can run on any system that supports Docker, making it easy to move applications between environments.
+
 Scalability: Docker makes it easy to scale applications horizontally by adding more container instances.
